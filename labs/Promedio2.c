@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void){
+int main(){
     float nota1;
     float nota2;
     float nota3;

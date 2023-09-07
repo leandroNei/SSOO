@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void){
+int main(){
    int num0 = 1;
    int res = 0;
    int aux = 1;
