@@ -2,14 +2,17 @@
 mostrar la matriz por consola.*/
 #include<stdio.h>
 
-int main{
-    int matriz[4][4]
-    for(int i = 0; i < 4; i++)
+int main(){
+    int matriz[3][3]={1,2,3,4,5,6,7,8,9};
+    int i;
+    int j;
+    //muestra valores de la matriz
+    for(i=0; i<=2; i++)
     {
-        printf("");
-        for (int j = 0; j<4; j++)
+        printf("\n");
+        for (j=0; j<=2; j++)
         {
-            
+            printf(" [%d] ", matriz[i][j]);
         }
     }
 }

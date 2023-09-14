@@ -7,7 +7,7 @@ int main()
 {
     char Nombres[5][20]={"leandro","roc3l","Piter","joseluiiiis","happy"};
     int aux = 0;
-
+    //muestra los nombres del arreglo
     while (aux<5)
     {
         printf("%s \n", Nombres[aux]);

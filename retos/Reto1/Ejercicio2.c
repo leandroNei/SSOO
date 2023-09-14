@@ -8,13 +8,14 @@ int main()
 {
     char Nombres[5][20];
     int aux=0;
-     
+    //Ingresa nombres al arreglo
     for (int i=0;i<5;i++)
     {
         printf("Ingrese nombre: ");
         scanf("%s", &Nombres[i]);
     }
 
+    // recorre el arreglo mostrando los nombres
     while (aux<5)
     {
         printf("%s \n", Nombres[aux]);
